@@ -4,7 +4,7 @@ const Rightmail = () => {
   return (
     <>
       <div class="right-box-container">
-        <a class="email-link" href="#">
+        <a class="email-link" href="">
           hamzaaamir6@gmail.com
         </a>
       </div>

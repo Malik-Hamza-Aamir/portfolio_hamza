@@ -115,11 +115,11 @@ const Work = () => {
               </div>
 
               <div className="codeview-container">
-                <a className="github" href="">
+                <a className="github" href="https://github.com/Malik-Hamza-Aamir/portfolio_hamza">
                   {" "}
                   <GitHubIcon />{" "}
                 </a>
-                <a className="external-link" href="">
+                <a className="external-link" href="https://soft-parfait-39713b.netlify.app">
                   {" "}
                   <OpenInNewIcon />{" "}
                 </a>

@@ -11,25 +11,25 @@ const Leftlink = () => {
       <div className="leftbar-container">
         <ul className="line-element">
           <li className="mlink">
-            <a className="link" href="#">
+            <a className="link" href="https://github.com/Malik-Hamza-Aamir">
               <GitHubIcon />
             </a>
           </li>
 
           <li className="mlink">
-            <a className="link" href="#">
+            <a className="link" href="https://www.linkedin.com/in/hamza-aamir-498783208/">
               <LinkedInIcon />
             </a>
           </li>
 
           <li className="mlink">
-            <a className="link" href="#">
+            <a className="link" href="https://www.instagram.com/this_is_hamza_/">
               <InstagramIcon />
             </a>
           </li>
 
           <li className="mlink">
-            <a className="link" href="#">
+            <a className="link" href="https://twitter.com/Hamzaaa60538596">
               <TwitterIcon />
             </a>
           </li>
