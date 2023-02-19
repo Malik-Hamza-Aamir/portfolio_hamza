@@ -1,0 +1,114 @@
+.about-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  // border: 2px solid red;
+
+  .about-fcontainer {
+    height: 100%;
+    width: 70%;
+    // border: 2px solid green;
+
+    .abt-heading {
+      color: #CCD6F6;
+      font-size: 2rem;
+    }
+
+    .abt-heading::before {
+      content: "01. ";
+      position: relative;
+      counter-increment: section 1;
+      margin-right: 10px;
+      color: #64ffda;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+
+    .abt-heading::after {
+      content: "";
+      display: block;
+      //   position: relative;
+      width: 300px;
+      height: 1px;
+      margin-left: 13.5rem;
+      margin-top: -18px;
+      background-color: #fff;
+      opacity: 0.2;
+      top: 0;
+    }
+
+    .abt-info-container {
+      display: flex;
+      color: #fff;
+
+      .personal-info {
+        width: 60%;
+        color: #848EAB;
+        margin-top: 3rem;
+
+        .skills-container {
+          display: flex;
+          margin-top: 1rem;
+
+          .skill-list {
+            width: 50%;
+
+            .skill-container {
+              list-style-type: disclosure-closed;
+            }
+
+            .skill-container li {
+              padding-bottom: 10px;
+            }
+
+            .skill-container li::marker {
+              color: #64ffda;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .profile-img {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+
+        .my-pic {
+          width: 80%;
+          height: 50%;
+          border-radius: 6px;
+          margin-top: 3rem;
+          z-index: 10;
+          filter: grayscale(100%);
+        }
+
+        .my-pic:hover{
+          transition: 0.2s ease-in-out;
+          filter: grayscale(0%);
+        }
+
+        .pic-back-border{
+          width: 22%;
+          height: 35%;
+          position: absolute;
+          border-radius: 6px;
+          margin-top: 75px;
+          margin-left: 50px;
+          border: 2px solid #64ffda;
+          z-index: -1;
+        }
+
+      }
+
+      .profile-img:hover{
+        .pic-back-border{
+          transition: 0.2s ease-in-out;
+          margin-top: 70px;
+          margin-left: 32px;
+        }
+      }
+    }
+  }
+}

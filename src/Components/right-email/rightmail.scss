@@ -1,0 +1,24 @@
+.right-box-container {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2.5rem;
+
+  .email-link {
+    color: white;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+  }
+}
+
+.right-box-container::after {
+  content: "";
+  background-color: white;
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin-top: 40px;
+  writing-mode: vertical-lr;
+  margin-left: 8px;
+}

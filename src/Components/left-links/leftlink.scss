@@ -1,0 +1,27 @@
+.leftbar-container {
+  position: fixed;
+  bottom: 0;
+
+  .line-element {
+    list-style-type: none;
+
+    .mlink {
+      margin-bottom: 40px;
+
+      .link {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+  }
+}
+
+.leftbar-container::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin-left: 3.2rem;
+  background-color: white;
+}
